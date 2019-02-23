@@ -1,0 +1,14 @@
+<body>
+    <div class="navibg">
+        <div class="flex-form">
+            <input [(ngModel)]="name" class="srcBar" type="search" placeholder="Search by title" required>
+            <button (click)="search()" class="srcBtn" type="submit" >Search</button>
+                <span class="welcome">Welcome to Movie Search!!</span>
+                    <span class="btns">
+                        <button class='logBtn'>Log In</button>
+                        <!--<button [routerLink]="['/register']" routerLinkActive="active" class='regiBtn'>Register</button>-->
+                        <a routerLink="/register" routerLinkActive="active" class='regiBtn'>Register</a>
+                </span> 
+        </div>
+    </div>
+</body>
