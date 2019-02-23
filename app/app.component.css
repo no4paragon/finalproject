@@ -3,6 +3,7 @@ body {
   height: 52em;
   width: 103em;
   position: absolute;
+  z-index: -5;
 }
 
 .welcome{

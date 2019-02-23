@@ -15,6 +15,18 @@
  padding-right: 50px;
 }
 
+.forms {
+	position: absolute;
+	top: 80px;
+	display: flex;
+	justify-content: flex-end;
+	margin: -0.2em;
+	margin-right: 0;
+	z-index: 0;
+	right: 10em;
+	background: white;
+}
+
 .srcBar{
     width: 500px;
     margin-left: 50px;
