@@ -7,9 +7,9 @@ import { LoginComponent } from './login/login.component';
 
 export const router: Routes = [
     { path: '',  component: AppComponent },
-    { path: 'navi', component: NaviComponent },
     { path: 'login', component: LoginComponent },
-    { path: 'register', component: RegisterComponent }
+    { path: 'register', component: RegisterComponent },
+    { path: 'navi', component: NaviComponent },
 ];
 
 export const routes: ModuleWithProviders = RouterModule.forRoot(router);
